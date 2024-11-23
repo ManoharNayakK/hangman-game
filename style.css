@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #d5e5ec;
+}
+
+.game-container {
+    margin-top: 50px;
+}
+
+#word {
+    font-size: 2em;
+    letter-spacing: 10px;
+    margin-top: 20px;
+}
+
+#hangman {
+    margin: 20px auto;
+    width: 150px;
+    height: 250px;
+}
+
+.letters {
+    margin: 20px;
+}
+
+.letter {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.letter:hover {
+    background-color: #ddd;
+}
+
+.letter.disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+.score {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
